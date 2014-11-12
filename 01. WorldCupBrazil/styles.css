@@ -1,0 +1,156 @@
+﻿body {
+    background-color: #00923E;
+    font-family: tahoma, sans-serif;
+}
+table{
+    margin:auto;
+}
+table{
+    border-radius:20px;
+}
+th:first-child{
+     border-top-left-radius:20px;
+     text-align:right;
+     padding-right: 5px;
+}
+th:nth-child(3){
+    text-align: left;
+    padding-left: 5px;
+}
+th:last-child{
+     border-top-right-radius:20px;
+}
+tr:last-child td:first-child{
+    border-bottom-left-radius:20px;
+}
+tr:last-child td:last-child{
+    border-bottom-right-radius:20px;
+}
+table, th, td {
+    border-spacing:0;
+    border:1px solid black;
+}
+thead th {
+    background-color: #F8C711;
+    font-size: 20px;
+}
+tbody > tr > td{
+    background-color: #FFF;
+}
+tbody > tr:nth-child(2n) > td{
+    background-color: #C8C8C8
+}
+th{
+    height:40px;
+}
+td{
+    height:50px;
+    width: 150px;
+    font-size: 15px;
+}
+button{
+    background-color: #028002;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    color:white;
+    font-size:10px;
+}
+button:disabled{
+    background-color: #F00;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    color:white;
+    font-size:10px;
+}
+select:disabled{
+    background-color:#DCDCDC;
+    color: #F00;
+}
+select{
+    padding-top: 10px;
+    padding-bottom:10px;
+    color: #028002;
+    width: 40px;
+}
+td:nth-child(2) {
+    text-align:center;
+    width: 80px;
+}
+td:nth-child(4) {
+    text-align:center;
+    width: 80px;
+}
+td:nth-child(5) {
+    text-align:right;
+    width: 130px;
+    padding-right:10px;
+}
+td:nth-child(6){
+    text-align:center;
+    width: 100px;
+}
+td:nth-child(7){
+    width: 130px;
+    padding-left: 10px;
+}
+td:nth-child(8){
+    width: 50px;
+    text-align: center;
+}
+#brazil{
+    text-align:right;
+}
+#brazil:after {
+    content: url(images/brasil.png);
+    padding: 5px;
+}
+#mexico:before {
+    content: url(images/mexico.png);
+    padding: 5px;
+}
+#spain{
+    text-align:right;
+}
+#spain:after {
+    content: url(images/spain.png);
+    padding: 5px;
+}
+#holland:before {
+    content: url(images/netherlands.png);
+    padding: 5px;
+}
+#italy{
+    text-align:right;
+}
+#italy:after {
+    content: url(images/italy.png);
+    padding: 5px;
+}
+#england:before {
+    content: url(images/england.png);
+    padding: 5px;
+}
+#argentina{
+    text-align:right;
+}
+#argentina:after {
+    content: url(images/argentina.png);
+    padding: 5px;
+}
+#bosna:before {
+    content: url(images/bosna.png);
+    padding: 5px;
+}
+#germany{
+    text-align:right;
+}
+#germany:after {
+    content: url(images/germany.png);
+    padding: 5px;
+}
+#portugal:before {
+    content: url(images/portugal.png);
+    padding: 5px;
+}

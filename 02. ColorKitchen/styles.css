@@ -1,0 +1,144 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: tahoma;
+    background-image: url('images/colorful_dots_on_black.jpg');
+}
+body > header{
+    background: linear-gradient(to right, #F00 33.33%, #008000 33.34%, #008000 66.67%, #00F 66.68%);
+    text-align:center;
+    height: 1.4em;
+    color: #FF0;
+    font-size:3em;
+    font-weight:700;
+    padding-bottom: 0.2em;
+}
+aside, article{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    display:block;
+    padding: 20px;
+    margin-top: 30px;
+}
+nav header {
+    text-decoration:underline;
+    font-size: 1.6em;
+}
+li {
+    background-image: url('images/dot.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 5px;
+    list-style-type: none;
+    padding: 7px;
+}
+li a{
+    text-decoration:none;
+    color: black;
+    margin-left: 30px;
+}
+li a:visited {
+    color:gray;
+}
+aside{
+    margin-left: 15px;
+    float: left;
+    position: fixed;
+    width: 210px;
+}
+
+section{
+    margin: 30px 30px 30px 295px;
+}
+#webColors {
+    background-color: #F00;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+}
+#webSafeColors {
+    background-color: #FFA500;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+}
+#RGB {
+    background-color: #FF0;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+}
+#RGBA {
+    background-color: #008000;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+}
+#\#HSLHSV {
+    background-color: #00F;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+}
+#\#lorem {
+    background-color: #800080;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+}
+article a{
+    font-style:italic;
+    color:grey;
+}
+li:nth-child(1):hover{
+    background-color: #F00;
+    border-radius: 10px;
+}
+li:nth-child(2):hover{
+    background-color: #FFA500;
+    border-radius: 10px;
+}
+li:nth-child(3):hover{
+    background-color: #FF0;
+    border-radius: 10px;
+}
+li:nth-child(4):hover{
+    background-color: #008000;
+    border-radius: 10px;
+}
+li:nth-child(5):hover{
+    background-color: #00F;
+    border-radius: 10px;
+}
+li:nth-child(6):hover{
+    background-color: #800080;
+    border-radius: 10px;
+}
+article div{
+    
+}
+article div::first-line{
+    font-style:italic;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+article div::first-letter{
+    font-size: 3.5em;
+}
+header + span{
+    font-style:italic;
+    color: #00F;
+}
+header + span:after{
+    content: "\"";
+}
+header + span:before{
+    content: "\"";
+}
+
