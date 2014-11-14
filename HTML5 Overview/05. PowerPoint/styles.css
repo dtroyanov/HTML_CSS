@@ -1,0 +1,48 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('Images/Picture1.jpg');
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    font-family:Calibri;
+    padding: 30px;
+}
+h1 {
+    font-size: 48px;
+    color: #F3BE60;
+    float: left;
+}
+img{
+    float:right;
+}
+span{
+    font-weight:700;
+    color: #F3BE60;
+}
+section {
+    clear:both;
+}
+ul {
+    margin-top: 20px;
+    margin-left: 45px;
+    list-style-type: square;
+    font-size: 32px;
+    color: #F3BE60;
+}
+.heading {
+    color: #fff;
+}
+.container{
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:50px;
+    font-size: 24px;
+    color: #FBEEC9;
+    font-weight: 600;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color:rgba(255, 255, 255, 0.1);
+}

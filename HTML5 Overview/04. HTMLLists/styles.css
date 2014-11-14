@@ -1,0 +1,17 @@
+﻿li {padding-left: 10px;
+}
+.romanletter{
+    list-style-type:upper-roman;
+}
+.letter{
+    list-style-type:lower-alpha;
+}
+.circle{
+    list-style-type:circle;
+}
+.square{
+    list-style-type:square;
+}
+.disc{
+    list-style-type:disc;
+}

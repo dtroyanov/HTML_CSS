@@ -1,0 +1,42 @@
+﻿* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    margin: 10px;
+    background-color: #ADD8E6
+}
+h1{
+    margin-bottom:25px;
+    margin-top:25px;
+}
+header ul{
+    margin-left:50px;
+    margin-bottom:20px;
+}
+h2{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+hr{
+    height: 3px;
+    color:white;
+}
+section{
+    margin-top: 20px;
+}
+.second{
+    margin-top: 20px;
+}
+section ul{
+    list-style-type:none;
+}
+span{
+    font-weight:700;
+}
+dt{
+    font-style: italic;
+}
+dd{
+    padding-left:40px;
+}

@@ -1,0 +1,91 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+}
+td{
+    height:30px;
+}
+.container {
+    width:100%;
+    background-color:#234465;
+}
+table{
+    width:100%;
+}
+body {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    color: #ffffff;
+}
+table tr td table tr td{
+    padding-top:15px;
+}
+.logo {
+    margin-right:100px;
+}
+.menu {
+    padding-top:5px;
+    padding-bottom:15px;
+}
+li>a:hover{
+    background: #4CA0DB;
+}
+li>a{
+    border-radius: 5px;
+    padding:10px;
+    text-indent: 10px;
+}
+li {
+    list-style-type:none;
+    display:inline;
+}
+li:first-child{
+    margin-left:100px;
+}
+a {
+    text-decoration:none;
+    color: #ffffff;
+    font-weight:bold;
+}
+span:hover{
+    text-decoration:underline;
+    color: #FE9753;
+}
+table table {
+    width:100%
+}
+.bell {
+    width:60%;
+    text-align:right;
+}
+.bell span, img {
+    vertical-align: middle;
+}
+.user{
+    width:10%;
+    text-align:right;
+}
+.search{
+    width:30%;
+}
+.searchField{
+    width:200px;
+    float:left;
+    height:25px;
+    padding-right:0px;
+    margin-right:0px;
+}
+.image{
+    padding-left:-60px;
+    margin-left:-60px;
+    float:right;
+    height:26px;
+    width:25px;
+}
+.last {
+    width:228px;
+    overflow:hidden;
+    height: 25px;
+    border: 1px solid #234465;
+    border-radius: 8px;
+}
