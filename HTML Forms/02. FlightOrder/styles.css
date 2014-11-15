@@ -1,0 +1,80 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:400px;
+    height:300px;
+    background-color:#FFC0CB;
+    font-family:Arial;
+    padding:10px;
+    margin:100px auto;
+}
+label{
+    font-style:italic;
+    font-size:12px;
+    display:block;
+}
+h1 {
+    text-align:center;
+    font-style:italic;
+}
+input, select {
+    margin: 5px 0 5px 0;
+}
+select{
+    width:187px;
+    font-size:16px;
+}
+input[type=date]{
+    width:179px;
+    font-size:16px;
+}
+input[type=time]{
+    width:83px;
+    font-size:16px;
+}
+input[type=date], input[type=time]{
+    padding:3px;
+}
+input[type=number]{
+    width:57px;
+    font-size:16px;
+}
+form{
+    margin-top:10px;
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+#from{
+    margin-bottom:34px;
+}
+#prefer{
+    margin-bottom:10px;
+    margin-right:5px;
+}
+label[for=prefer]{
+    display:inline-block;
+}
+input[type=submit]{
+    float:right;
+    margin-right:12px;
+    width:189px;
+    font-size:16px;
+    margin-top:0px;
+}
+.first, .second, .third{
+    float:left;
+}
+.second{
+    margin: 0 5px 0 5px;
+}
+#class{
+    margin-bottom:5px;
+}

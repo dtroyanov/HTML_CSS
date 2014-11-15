@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fakebook</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>fakebook<span>&reg;</span></h1>
+        <h3>Registration</h3>
+        <h5>It is safe and it will always be!</h5>
+        <form>
+            <fieldset class="useless">
+                <legend>None-Important information</legend>
+                <input type="text" name="firstname" placeholder="First Name" class="first"/>
+                <input type="text" name="lastname" placeholder="Last Name" class="first" />
+                <input type="email" name="mail" placeholder="Your Email" class="first" />
+                <input type="tel" name="tel" placeholder="Phone Number" class="first" />
+                <input type="password" name="pass" placeholder="Your Password" class="first" />
+                <input type="url" name="site" placeholder="Website" class="first" />
+                <label for="date">Birthday</label>
+                <input type="datetime" name="datetime" id="date" placeholder="05/09/2014 01:58 PM"/>
+                <div>
+                    <input type="radio" name="gender" value="male" id="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="female" id="female" />
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="other" id="other" />
+                    <label for="other">Other</label>
+                </div>
+            </fieldset>
+            <fieldset class="important">
+                <legend>Important information *required</legend>
+                <select name="Country" required class="select">
+                    <option selected disabled>Country</option>
+                    <option>Austria</option>
+                    <option>Bulgaria</option>
+                    <option>Denmark</option>
+                    <option>England</option>
+                    <option>France</option>
+                    <option>Germany</option>
+                    <option>Greece</option>
+                    <option>Spain</option>
+                    <option>Sweden</option>
+                    <option>Ukraine</option>
+                </select>
+                <input type="text" name="village" placeholder="Village" required class="second" />
+                <input type="text" name="district" placeholder="District" required class="second" />
+                <input type="text" name="street" placeholder="Street" required class="second" />
+                <input type="text" name="number" placeholder="Nr" required class="special"/>
+                <input type="text" name="floor" placeholder="floor" required class="special"/>
+                <input type="text" name="apartment" placeholder="Ap Nr" required class="special"/>
+                <label for="color">Door color</label>
+                <input type="color" name="color" value="#FF80C0" id="color"/>
+                <input type="text" name="water" placeholder="Water Meter Nr" required class="second" />
+                <select name="pants" required class="select">
+                    <option selected disabled>Aunt Panties's size</option>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+                    <option>38</option>
+                </select>
+                <label for="info">More Personal Information</label>
+                <textarea placeholder="Give Us More Information!!!" id="info"></textarea>
+            </fieldset>
+            <input type="reset" name="clear" value="Clear Form" />
+            <input type="submit" name="submit" value="Register" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿body {
+}
+input[type=search]{
+    height:25px;
+    width:200px;
+}
+img{
+    height:80px;
+    width:400px;
+}
+div:last-child{
+    margin-top:15px;
+}
+#image{
+    height:35px;
+    width:35px;
+    vertical-align:bottom;
+    margin-left:5px;
+}

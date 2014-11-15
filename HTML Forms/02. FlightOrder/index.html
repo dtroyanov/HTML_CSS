@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Flight Order</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>FLIGHT ORDER</h1>
+        <form action="#" method="get">
+            <div class="left">
+                <label for="from">From</label>
+                <select id="from">
+                    <option>enter a city</option>
+                    <option>Sofia</option>
+                    <option>London</option>
+                    <option>Madrid</option>
+                    <option>Paris</option>
+                    <option>Rome</option>
+                    <option>Berlin</option>
+                </select>
+                <label for="departure">Departure Date</label>
+                <input type="date" id="departure" placeholder="09.06.2014" />
+                <label for="return">Return Date</label>
+                <input type="date" id="return" placeholder="13.06.2014" />
+                <div class="first">
+                    <label for="first">12+</label>
+                    <input id="first" type="number" name="number" value="0" min="0" max="10" />
+                </div>
+                <div class="second">
+                    <label for="second">2-12</label>
+                    <input id="second" type="number" name="number" value="0" min="0" max="10" />
+                </div>
+                <div class="third">
+                    <label for="third">0-2</label>
+                    <input id="third" type="number" name="number" value="0" min="0" max="10" />
+                </div>
+            </div>
+            <div class="right">
+                <label for="to">To</label>
+                <select id="to">
+                    <option>enter a city</option>
+                    <option>Sofia</option>
+                    <option>London</option>
+                    <option>Madrid</option>
+                    <option>Paris</option>
+                    <option>Rome</option>
+                    <option>Berlin</option>
+                </select>
+                <input type="checkbox" name="prefer" id="prefer" />
+                <label for="prefer">Prefer directs</label>
+                <label for="time" class="rightLabel">Time Interval</label>
+                <input type="time" name="timeStart" id="time" placeholder="00:20" />
+                <input type="time" name="timeEnd" placeholder="05:00" />
+                <label for="time" class="rightLabel">Time Interval</label>
+                <input type="time" name="timeStart" id="time" placeholder="16:00" />
+                <input type="time" name="timeEnd" placeholder="22:00" />
+                <label for="class">Choose class</label>
+                <select id="class">
+                    <option>Economy</option>
+                    <option>First class</option>
+                    <option>Business class</option>
+                </select>
+            </div>
+            <input type="submit" name="submit" value="Search" />
+        </form>
+    </div>
+</body>
+</html>
