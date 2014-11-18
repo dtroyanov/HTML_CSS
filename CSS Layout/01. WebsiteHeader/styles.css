@@ -1,0 +1,207 @@
+﻿* {
+    margin:0;
+    padding:0;
+    color:#FFF;
+}
+header {
+    background-color: #234465;
+    height:80px;
+    padding:20px;
+    background-size: contain;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.container {
+    box-sizing: border-box;
+    width: 1170px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+a {
+text-decoration: none;
+}
+.logo {
+    font-size: 11px;
+    width: 250px;
+    height: 67px;
+    float: left;
+}
+.logo div {
+    padding-top: 7px;
+    text-align: right;
+    height: 60px;
+    width: 250px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+}
+.main{
+    float:right;
+}
+.user {
+    line-height: 36px;
+    float: left;
+}
+.user ul {
+    display: inline-table;
+    vertical-align: bottom;
+}
+.menu>ul>li:hover{
+    background: #428BCA;
+    border-radius:5px;
+}
+.user>ul>li {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 10px;
+    cursor:pointer;
+}
+.user>ul>li:hover {
+    text-decoration: underline;
+}
+#bell {
+    width: 20px;
+    height: 20px;
+    background: url(images/bell.png) no-repeat;
+    vertical-align: middle;
+    margin: 0;
+    display: inline-block;
+}
+.user ul li {
+    float: left;
+    display: block;
+}
+form {
+    border: 1px solid #d5d5d5;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+    border-collapse:collapse;
+    height: 32px;
+    width: 260px;
+    margin: 0 30px 0 10px;
+    padding: 0;
+    background-color:#fff;
+    float: left;
+    display: inline-block;
+}
+input {
+    background: none repeat scroll 0 0 transparent;
+    width: 210px;
+    height: 32px;
+    border: 0;
+    float: left;
+    color: GrayText;
+    padding-left: 10px;
+}
+button {
+    border-radius: 0 5px 5px 0;
+    background-color:#FFF;
+    background-image: url(images/search.png);
+    width: 32px;
+    height: 32px;
+    float: right;
+    border: 0;
+    border-left:1px solid #d5d5d5;
+    background-repeat:no-repeat;
+    background-position: 7px;
+    cursor: pointer;
+}
+button:hover {
+    background: #367cae;
+    background-image: url(images/search.png);
+    background-repeat:no-repeat;
+    background-position: 7px;
+}
+.menu {
+    line-height: 36px;
+    display: inline-block;
+    float: right;
+}
+.menu:hover{
+    cursor:pointer;
+}
+.menu ul {
+    padding: 0 20px 10px 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+.menu>ul>li {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 0 10px;
+    display:inline-block;
+}
+.arrow {
+    display: inline-block;
+    border: 5px solid transparent;
+    border-top-color: rgba(255,255,255,1);
+    widows: 0;
+    height: 0;
+    vertical-align: middle;
+    right: 17px;
+    top: 50%;
+    margin-top: 6px;
+    margin-left: 2px;
+    border-radius: 0 !important;
+}
+.user ul ul{
+    background: #234465;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-weight: 400;
+    text-align: left;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -2px;
+    width: 300px;
+    z-index: 10;
+    display: none;
+    text-transform:none;
+}
+.user ul li:hover ul, .menu ul li:hover ul{
+    display: block;
+} 
+.user ul ul li{
+    border-bottom: 1px solid #575f6a;
+    float: none;
+    padding:0 10px;
+}
+.user ul ul li:first-child, .menu, ul ul li:first-child{
+    margin-top:5px;
+}
+.user ul ul li:hover, .menu ul ul li:hover {
+    background: #FF9C00;
+}
+.first a {
+    font-weight: bold;
+    color: #4ca0db
+}
+.first:hover a {
+    font-weight: bold;
+    color: #fff; 
+}
+.menu ul ul {
+    background: #234465;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    text-align: left;
+    text-transform: none;
+    font-weight: 400;
+    position: absolute;
+    width: 300px;
+    top: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    display: none;
+    padding:0;
+}
+.menu ul ul li {
+    border-bottom: 1px solid #575f6a;
+    float: none;
+    padding:0 0 0 10px;
+}
+

@@ -1,0 +1,68 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family:Arial;
+    font-size: 14px;
+    font-weight:500;
+}
+footer {
+    background-color: #234465;
+    height: 270px;
+    padding: 30px 80px 30px 100px;
+}
+container{
+    width:100%;
+}
+a{
+    text-decoration:none;
+}
+.container>div{
+    display:inline-block;
+    height:230px;
+    float:left;
+    padding: 20px;
+}
+.buttons, .friends{
+    width:200px;
+}
+.about{
+    width:210px;
+}
+.rights, .facebook{
+    width:285px;
+}
+input[type=button]{
+    display: block;
+    width: 170px;
+    background-color: #234465;
+    border: 2px solid #FFA000;
+    padding:15px;
+    margin-bottom: 15px;
+}
+h4{
+    text-transform:uppercase;
+    color: #FFA000;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+li{
+    list-style-type:none;
+    padding: 3px 0;
+}
+li>a:hover{
+    color:#FFA000;
+}
+.rights>ul>li>a {
+    margin-right: 10px;
+}
+.rights>ul>li:last-child{
+    margin-top: 20px;
+}
+iframe{
+    background-color:#E9ECEF;
+    margin-top:-20px;
+}
+
+
