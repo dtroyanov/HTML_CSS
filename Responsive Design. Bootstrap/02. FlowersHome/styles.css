@@ -145,5 +145,12 @@ footer a {
         text-align: center;
         flex-direction: column;
         align-items: center;
+        height: 4.0em;
+    }
+    #wrapper>header>h1 a span {
+        max-width:100%;
+    }
+    footer {
+        font-size: 0.8em;
     }
 }
