@@ -1,0 +1,149 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+body {
+    background-image: url('images/background-flowers.jpg');
+}
+#wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#wrapper>header, aside, section, footer {
+    border:2px solid #000;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+}
+#wrapper>header {
+    flex: 1 100%;
+    margin-bottom: 30px;
+}
+#wrapper>header>h1>a {
+    color: #000000;
+    font-size: 1.3em;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:25px;
+}
+#wrapper>header img {
+    width: 25%;
+    height: 25%;
+}
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+nav a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #FFF;
+}
+nav li {
+    list-style-type:none;
+    background: #EB2A7B;
+    height: 40px;
+    line-height: 38px;
+    margin-left: 10px;
+    border: 1px solid #000000;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.left {
+    flex: 1;
+    order: 1;
+}
+.left a {
+    text-decoration: none;
+    color: #000;
+}
+.left li {
+    list-style-type: none;
+}
+.left span {
+    vertical-align: 10px;
+}
+section {
+    flex: 1;
+    order: 2;
+    flex-grow: 3;
+    overflow: auto;
+    margin: 0 10px 30px;
+}
+section h1 {
+    font-size: 2em;
+}
+section div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+section img {
+    width: 25%;
+    height: 100%;
+    padding: 0 5px 5px 0;
+}
+.right {
+    flex: 1;
+    order: 3;
+}
+.right li {
+    list-style-type:none;
+}
+footer {
+    margin-top: 15px;
+    flex: 1 100%;
+    order: 4;
+    text-align: center;
+}
+footer a {
+    color: #000;
+}
+@media screen and (max-width: 960px) {
+    section img {
+        width: 33%;
+    }
+}
+@media screen and (max-width: 780px) {
+    #wrapper>header>h1>a, nav ul {
+        justify-content: space-around;
+    }
+    section {
+        flex: 1 100%;
+        order: 0;
+        margin: 0 0 15px;
+    }
+    .left {
+        flex: 1 100%;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 640px) {
+    nav li {
+        width: 100%;
+    }
+    nav li:nth-child(n+2) {
+        border-top: none;
+    }
+    section img {
+        width: 50%;
+    } 
+    #wrapper>header img {
+        width: 60%;
+        height: 25%;
+    }
+    #wrapper>header h1 a {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

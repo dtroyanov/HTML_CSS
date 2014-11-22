@@ -1,0 +1,138 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing:border-box;
+}
+img{
+    max-width:100%;
+}
+body {
+    background-color: #6698FF;
+    font-family:Arial;
+}
+#wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto; 
+}
+.header h1 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+.header h1 a {
+    color: #FFF;
+    text-decoration:none;
+}
+.header h1 a span {
+    display: inline-block;
+    vertical-align: 3px;
+    font-size: 1.2em;
+}
+nav ul {
+    float:right;
+    margin: -2% 2% 2% 0;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #FFF;
+    margin-left:10px;
+}
+nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}
+article, aside, footer, nav li {
+    border: 2px solid #000;
+    background-color: #E0EAFE 
+}
+aside, article {
+    padding: 15px 15px 35px 15px;
+}
+section {
+    display: inline-block;
+    width: 75%;
+}
+aside {
+    width: 23%;
+    display: inline-block;
+    float: right;
+}
+aside li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+aside a {
+    color: #000;
+    text-decoration: none;
+}
+article {
+    margin-bottom:10px;
+}
+article h1 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+p {
+    text-align: justify;
+    text-indent: 40px;
+}
+footer {
+    text-align:center;
+    padding-top:15px;
+    font-size:1em;
+    margin-bottom:20px;
+}
+@media only screen and (max-width:960px) {
+    footer{
+        margin-bottom:0px;
+    }
+}
+@media only screen and (max-width:780px) {
+    section, aside {
+        width: 100%;
+    }
+    aside{
+        float:none;
+        margin-bottom:10px;
+    }
+    aside li{
+        display:inline-block;
+        width:22%;
+        text-align:center;
+        vertical-align: top;
+        margin-left:10px;
+    }
+}
+@media only screen and (max-width:640px) {
+    .header img {
+        display: block;
+        margin: auto;
+    }
+    .header h1 {
+        display:block;
+        text-align: center;
+    }
+    section h1 {
+        text-align:center;
+    }
+    nav ul {
+        float:none;
+        margin-left: 5%;
+        margin-top: -4%;
+        margin-bottom: 5%;
+    }
+    .header nav li {
+        display:block;
+        width:90%;
+        text-align: center;
+    }
+    body aside li {
+        width: 100%;
+        display: block;
+        margin-left:0;
+    }
+}
