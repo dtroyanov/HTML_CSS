@@ -1,0 +1,132 @@
+﻿* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+    font-size:14px;
+    vertical-align:baseline;
+}
+img{
+    max-width:100%;
+}
+body{
+    background-color: #000;
+}
+.wrapper{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header div {
+    height: 270px;
+    background-image: url('images/headerBackground.jpg');
+    background-repeat:no-repeat;
+    background-position: top center;
+    position:relative;
+    background-size: 100% 100%;
+
+}
+header h1{
+    position:absolute;
+    color:#FFF;
+    bottom: 13%;
+    right:3%;
+    font-size:2.2em;
+}
+nav{
+    max-width:100%;
+    background-color:#E7E7E7;
+    min-height:50px;
+}
+ul{
+    border-bottom: 1px solid #FFF; 
+}
+li{
+    list-style-type:none;
+    display:inline-block;
+    border-right: 1px solid white;
+    width:15%;
+    text-align:center;
+}
+li:hover{
+    background-color:#B8B8B8;
+    color: #FFF;
+}
+nav a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color: #626161;
+    line-height:48px;
+    font-size:1.3rem;
+}
+.container{
+    width:100%;
+    padding: 20px 40px;
+    height:100%;
+}
+.container a{
+    color:#80BA3B;
+    font-weight:bold;
+}
+h2{
+    text-transform:uppercase;
+    color:#80BA3B;
+    margin-bottom: 20px;
+    font-size:1.6rem;
+}
+main section:last-child h2{
+    text-transform:capitalize;
+}
+main{
+    width:70%;
+    float:left;
+}
+section, aside{
+    border: 2px solid #E7E7E7;
+    border-radius: 15px;
+    display:inline-block;
+    margin-bottom: 20px;
+    padding:15px;
+}
+aside{
+    width:25%;
+    float:right;
+}
+.link {
+    display:inline-block;
+    margin-top:20px;
+}
+h5{
+    margin-bottom:10px;
+}
+.image{
+    float:left;
+    width:26%;
+    height:auto;
+    margin-right:20px;
+}
+.text{
+    float:left;
+    width:70%;
+    height: 100%;
+}
+article{
+    margin-bottom: 5%;
+    height: 100%;
+    overflow:auto;
+}
+.news {
+    background-color:#EEE;
+}
+footer{
+    clear:both;
+    background-color: #93CB2D;
+    text-align:center;
+    height:80px;
+    padding-top:3%;
+}
+footer a{
+    color:#000;
+}
+
