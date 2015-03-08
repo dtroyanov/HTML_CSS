@@ -8,6 +8,7 @@ body {
 div {
     width: 900px;
     height: 600px;
+    margin: 0 auto;
 }
 .container{
     background: -webkit-radial-gradient(20% 20%, farthest-corner, #ffffff 2%, #f9f7b5 8%, #ffffff 15%, #0062db 50%); 
