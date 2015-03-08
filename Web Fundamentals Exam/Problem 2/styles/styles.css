@@ -1,0 +1,142 @@
+﻿body, header, main, footer, nav, section, article, h1, h2, h3, h4, h5, p, a, img, div, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 12px;
+    font-family: Calibri, Arial, sans-serif;
+    background-color: #50247D;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+#wrapper { 
+    width: 1000px;
+    margin: 0 auto;
+}
+@font-face {
+  font-family: 'Oleo Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+h1, h2 {
+    font-family: 'Oleo Script';
+}
+h1, h3 {
+    color: #fff;
+}
+h3, h4  {
+    font-size: 26px;
+}
+h1 {
+    font-size: 68px;
+}
+/*Header*/
+#wrapper>header {
+    background: url('../images/orion-gas-and-star-bgr.jpg') no-repeat;
+    text-align: center;
+    border-bottom: 5px solid #35A4D4;
+    padding: 20px 0 40px 0;
+}
+ul {
+    margin-top: 45px;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+    margin: 0 5px;
+}
+nav li a {
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #4F2579;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li a:hover {
+    color: #FFF;
+    background-color: #36A4D5;
+}
+
+/*Main*/
+main {
+    margin-top: 25px;
+    border-top: 5px solid #865AB3;
+    border-bottom: 5px solid #38A3D8;
+    background-color: #EAE7EE;
+    padding: 40px;
+    height: auto;
+}
+h2 {
+    font-size: 48px;
+}
+section {
+    width: 48%;
+    float: left;
+}
+.orion, article {
+    background-color: #FFF;
+    position: relative;
+}
+.orion {
+    margin-right: 30px;
+    padding: 30px 30px 150px 30px;
+}
+.orion p {
+    margin-top: 15px;
+}
+.read-more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    background-color: #36A4D5;
+    padding: 10px 15px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.wallpaper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    background-color: #865AB3;
+    color: #fff;
+    padding: 10px 15px;
+}
+.wallpaper:hover {
+    background-color: #50247D;
+}
+article {
+    width: 47%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.first-col {
+    margin-right: 20px;
+}
+article div {
+    padding: 5px 10px 10px 10px;
+}
+article img {
+    width: 100%;
+}
+article h5 {
+    color: #32A0DF;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/*footer*/
+
+footer {
+    padding: 20px 0;
+}
+footer p {
+    color: #fff;
+    margin-left: 10px;
+}

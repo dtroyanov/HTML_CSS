@@ -1,0 +1,67 @@
+﻿body, header, section, article, button, div, p, h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+section {
+    width: 800px;
+    margin: 20px auto;
+}
+header {
+    width: 100%;
+    background-color: #DDDDDD;
+    border-radius: 15px;
+    padding: 20px;
+    color: #946FD9;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px #fff;
+}
+article {
+    display: inline-block;
+    background-color: #EEEEEE;
+    width: 23%;
+    margin-top: 20px;
+    margin-right: 18px;
+    padding: 10px;
+    border-radius: 15px;
+}
+article:last-of-type {
+    margin-right: 0;
+}
+div {
+    background-color: #9470DC;
+    border-radius: 100%;
+    font-size: 110px;
+    color: #FFF;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+div:hover {
+    cursor: pointer;
+    color: #936FDB;
+    background-color: #FFF;
+}
+p {
+    margin-bottom: 15px;
+    color: #ACA59F;
+}
+button {
+    background-color: #DDDDDD;
+    border: none;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #fff;
+    width: 95%;
+    color: #7B635F;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #FFF;
+}
